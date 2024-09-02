@@ -1,0 +1,67 @@
+/* Estilo Corpo */
+body {
+    font-family: Arial;
+    /* definir fontes */
+    background-color: white;
+    /* definir cor de fundo da página */
+}
+
+/* Estilo cabeçalho */
+header {
+    background-color: #363636;
+    /* definir cor de fundo do preenchimento */
+    padding: 10px;
+    /* definir tamanho do preenchimento em torno do menu */
+}
+
+/* Estilo texto principal */
+main {
+    max-width: 800px;
+    /*definir largura do quadro principal */
+    margin: auto;
+    /* Centraliza no quadro principal */
+    text-align: justify;
+    /* Textos justificados */
+}
+
+/* Estilo do título */
+h2 {
+    color: blue;
+    /* cor da fonte do menu h2  */
+}
+
+/* Estilo barra de manu */
+.menu {
+    display: flex;
+    /* mostrar menus em linha */
+    justify-content: center;
+    /* centraliza menus na pagina */
+    list-style-type: none;
+    /* remove marcador de lista  */
+}
+
+/* Espaçamento entre lista de menu */
+.menu li {
+    margin: 0 25px;
+    /* define espaçamento entre os menus  */
+}
+
+/* Estilo das imagens */
+.foto {
+    max-height: 220px;
+    /* define altura max das imagens  */
+    border-radius: 5%;
+    /* arredonda cantos das imagens  */
+    border: 1px solid black;
+    /* adiciona borda preta nas imagens  */
+    margin: 20px 5px;
+    /* define margens das imagens */
+}
+
+/* Estilo texto menu */
+.menu a {
+    color: white;
+    /* cor da fonte do menu  */
+    font-weight: bold;
+    /* fonte em negrito */
+}
